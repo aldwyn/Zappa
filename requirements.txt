@@ -8,7 +8,7 @@ futures==3.2.0; python_version < '3'
 hjson==3.0.1
 jmespath==0.9.3
 kappa==0.6.0
-lambda-packages==0.20.0
+-e git+https://github.com/toko-bifrost/lambda-packages-fake.git@39fc6e8fbf8941233483aaab824de153c7c648de#egg=toko-bifrost
 pip>=9.0.1
 python-dateutil>=2.6.1, <2.7.0
 python-slugify==1.2.4
@@ -17,7 +17,7 @@ PyYAML>=3.13
 requests>=2.20.0
 six>=1.11.0
 toml>=0.9.4
-tqdm==4.19.1
+tqdm==4.37.0
 troposphere>=1.9.0
 Werkzeug>=0.14
 wheel>=0.30.0
